@@ -16,8 +16,8 @@
       - pmm-server
       - pmm-managed
       - pmm-update
-      - percona-clickhouse-client
-      - percona-clickhouse-server
+ #     - percona-clickhouse-client
+ #     - percona-clickhouse-server
       - pmm2-client
       - dbaas-controller
 
@@ -150,8 +150,9 @@
         - - nginx
           - postgresql
           - prometheus
+          - victoriametrics
           - alertmanager
-          - clickhouse
+ #         - clickhouse
           - grafana
           - qan-api2
           - pmm-agent
